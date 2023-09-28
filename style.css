@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(214, 225, 235);
+    padding: 5px;
+}
+#yt{
+    background-color: rgb(253, 125, 125);
+}
+#yt a{
+    color: white;
+    font-weight: 300;
+}
+#disc{
+    background-color: rgb(75, 45, 243);
+}
+#disc a{
+    color: white;
+    font-weight: 300;
+}
+#fb{
+    background-color: rgb(21, 108, 238);
+}
+#fb a{
+color: white;
+font-weight: 300;
+}
+#insta {
+    background-color: rgb(245, 123, 204);
+}
+#insta a{
+    color: white;
+    font-weight: 300;
+}
+#twt {
+background-color: rgb(105, 173, 252);
+}
+#twt a{
+color: white;
+font-weight: 300;
+}
+.links{
+border: 1px solid black;
+display: inline;
+opacity: 0.7;
+transform: 0.4s;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+padding: 5px;
+margin: 5px;
+}
+.links:hover{
+opacity: 1;
+transition: .4s;
+font-size: larger;
+padding: 5px;
+}
+#linksgroup{
+text-align: center;
+}
+.links a{
+text-decoration: none;
+font-family: 'Pixelify Sans', cursive;
+}
+.banner{
+    background-image: url('images/istockphoto-954305374-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 350px;  
+}
+
+.bannertext{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: rgb(12, 39, 88);
+    font-size: 4em;
+}
+.bannertext h2 span{
+    color: rgb(25, 81, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(49, 124, 216);
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+
